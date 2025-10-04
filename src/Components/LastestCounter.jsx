@@ -10,6 +10,7 @@ const LastestCounter = () => {
     const countRef = useRef(count);
 
     useEffect(() => {
+        // here we get the count & put in countRef
         countRef.current = count;
         setTimeout(() => {
             console.log("count " + count)
