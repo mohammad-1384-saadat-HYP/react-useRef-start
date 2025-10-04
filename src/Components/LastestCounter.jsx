@@ -19,10 +19,10 @@ const LastestCounter = () => {
     }, [count]);
 
     return (
-        <div className={styles.container}>
+        <>
             <p className={styles.text}>click count is {count}</p>
             <button className={styles.btn} onClick={addCount}>Click !</button>
-        </div>
+        </>
     );
 };
 

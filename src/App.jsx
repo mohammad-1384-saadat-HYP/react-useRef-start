@@ -4,10 +4,10 @@ import UseLastCount from "./Components/UseLastCount.jsx";
 
 const App = () => {
     return (
-        <>
+        <div className="container">
             {/*<LastestCounter/>*/}
             <UseLastCount/>
-        </>
+        </div>
     );
 };
 
